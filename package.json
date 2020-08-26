@@ -1,0 +1,17 @@
+{
+  "name": "appid_api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "get_profiles.js",
+  "scripts": {
+    "start": "node get_profiles.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ibmcloud-appid": "^6.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
