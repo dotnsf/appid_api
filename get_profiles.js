@@ -59,7 +59,8 @@ async function getProfile(){
               //. カスタム属性
               //. https://qiita.com/yo24/items/7b577891d67cec52d9b2
 
-              console.log( profile, roles );
+              //console.log( profile, roles );
+              console.log( JSON.stringify( profile, null, 2 ) );
               resolve( { status: true, profile: profile, roles: roles } );
             }
           });
